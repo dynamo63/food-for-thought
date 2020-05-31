@@ -1,0 +1,114 @@
+@media (min-width: 320px) and  (max-width: 600px){
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: #444;
+        height: 100vh;
+    }
+
+    header{
+        width: 100%;
+        height: 20vh;
+        background-image: url("../assets/img/Intersection\ 6.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        margin: auto;
+    }
+    #logo{
+        width: 20%;
+        height: 20%;
+        background-color: #fff;
+        margin: 15% 0% 0% 10%;
+    }
+    p{
+        width: 80%;
+        height: 20%;
+        margin: 15% 0% 0% 10%;
+    }
+    .long{
+        width: 90%;
+        height: 25vh;
+        background-image: url(../assets/img/Intersection\ 1.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin: 3% 5% 0% 5%;
+        border-radius: 5px;
+    }
+    .taille{
+        width: 40%;
+        height: 20vh;
+        border-radius: 5px;
+
+    }
+    .container{
+        height: 45vh;
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: auto;
+
+    }
+    .container_second, 
+    .container-sup{
+        display: flex;
+        justify-content: space-around;
+
+    }
+    .tuto{
+        background-image: url(../assets/img/Intersection\ 2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .cooperative{
+        background-image: url(../assets/img/Intersection\ 4.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+    .recette{
+        background-image: url(../assets/img/Intersection\ 3.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+    .apropos{
+        background-image: url(../assets/img/Intersection\ 5.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+    }
+    h1{
+        color: white;
+        font-size: 1em;
+    }
+    #titre1{ 
+        text-align: right;
+        padding: 20% 5% 0% 0%;
+    }
+    #titre2{
+        text-align: center;
+        padding-top: 60% ;
+    }
+    #titre3{
+        padding: 30% 10% 0% 10%;
+        
+    }
+    #titre4{
+        padding: 25% 10% 0% 10%;
+    }
+    #titre5{
+        padding: 35% 5% 0% 15%;
+    }
+
+    footer{
+        width: 100%;
+        height: 20vh;
+        text-align: center;
+    }
+
+
+
+
+}
