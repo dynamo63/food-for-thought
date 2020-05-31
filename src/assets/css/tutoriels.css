@@ -1,0 +1,85 @@
+@media (min-width:320px) and (max-width:600px){
+    body{
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+    }
+    /* recherche */
+    .recherche{
+        height: 20vh;
+        background: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    /* contenair_tutoriels */
+    .contenair_tutoriels{
+        height: 70vh;
+        background-color: #343442 ;
+    }
+    .description{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        color: #fff;
+    }
+    .description p{
+        text-align: justify;
+        margin: 25px;
+    }
+    .description h3{
+        text-align: center;
+    }
+    .section_one,
+    .section_two{
+        display: flex;
+        justify-content: space-around;
+        height: 25vh;
+        background-color: #343442 ;
+        align-items: center;
+    }
+    
+    /* taille des articles */
+    .articleOne,
+    .articleTwo,
+    .articleTrois,
+    .articleQuatre{
+        height: 90%;
+        width: 45%;
+    }
+    /* background image */
+    .articleOne{
+        background-image: url("https://cdn.pixabay.com/photo/2019/04/17/11/13/laying-hens-4133960_960_720.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .articleTwo{
+        background-image: url("https://i.pinimg.com/originals/c7/42/7a/c7427aebc60cdc68570469c48d4a092e.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;        
+    }
+    .articleTrois{
+        background-image: url("https://3.bp.blogspot.com/-V6z4qa0BzOI/XC5hCGWgQyI/AAAAAAAACr8/HBZSNC2fQ9UBDt_0DgpoGnUcH9R3yIz8wCLcBGAs/s1600/aquaculture-pisciculture.JPG");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;                
+    }
+    .articleQuatre{
+        background-image: url("https://st3.depositphotos.com/4325901/36900/i/450/depositphotos_369003812-stock-photo-red-hen-home-on-mini.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;   
+    }
+    /* footer */
+    footer{
+        height: 55px;
+        background-color: white;
+        text-align: center;
+    }
+    footer p{
+        padding-top: 20px;
+    }
+}
