@@ -1,0 +1,69 @@
+@media (max-width: 600px) and (min-width: 320px){
+    body{
+        margin: 0;
+        padding: 0;
+        font-family: sans-serif;
+    }
+    header{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 30vh;
+        width: auto;
+        background-image: url("../img/fruit.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    input{
+        padding: 10px;
+        border: none;
+        border-radius: 10px;
+    }
+    .parent{
+        background-color: #334433;
+        height: 70vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .premier_contenair{
+        display: flex;
+        border-radius: 10px;
+        height: 20vh;
+        width: 90%;
+        background-color: #333333;
+    }
+    .deuxieme_contenair{
+        display: flex;
+        border-radius: 10px;
+        height: 20vh;
+        width: 90%;
+        background-color: #fff;
+    }
+    .troisieme_contenair{
+        display: flex;
+        border-radius: 10px;
+        height: 20vh;
+        width: 90%;
+        background-color: #333333;
+    }
+    .parent p{
+        margin: 0;
+        padding-left: 15px;
+        text-align: justify;
+    }
+    .img{
+        height: 100%;
+        width: 40%;
+        background-image: url("../img/Intersection\ 3.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .text{
+        height: 100%;
+        width: 55%;
+    }
+}
